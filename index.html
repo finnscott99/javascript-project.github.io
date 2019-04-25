@@ -3,36 +3,26 @@
 
 <head>
   <meta charset=utf-8>
-  <title> </title>
+  <title>Square Root</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</head> 
+  
+<body>
+  
+  <h1>Square Root</h1>
+    <p>Click<input type=’button’ onclick=’find_root()’ value=’here’></p>
+  
+  <script type=’text/javascript’>
+  function find_root() {
+    var num;
+    var root;
+   
+    num = prompt("Find the square root of what number? ");
+    root = Math.sqrt(num);
+    alert("The square root of " + num + " is " + root );
+    }
+  </script>
+  
+</body>
+  
+</html>
